@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS fashion;
+USE fashion;
+
+CREATE TABLE IF NOT EXISTS shop (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  brand VARCHAR(100),
+  price DECIMAL(10,2) NOT NULL,
+  discount_percent INT DEFAULT 21,
+  stock INT DEFAULT 100
+);
+
+INSERT INTO shop (name, brand, price, stock) VALUES
+('Puma Casual T-Shirt', 'Puma', 799, 50),
+('Adidas Sports T-Shirt', 'Adidas', 899, 40),
+('Formal Shirt Blue', 'LocalBrand', 1199, 30),
+('Slim Fit Jeans', 'DenimCo', 1299, 35);
