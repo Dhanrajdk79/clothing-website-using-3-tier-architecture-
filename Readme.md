@@ -10,13 +10,7 @@ A simple clothing store web app where users can browse/search items, view detail
 - [Tech Stack](#tech-stack)  
 - [Folder Structure](#folder-structure)  
 - [Setup Instructions](#setup-instructions)  
-  - [Prerequisites](#prerequisites)  
-  - [AWS Infrastructure](#aws-infrastructure)  
-  - [Deploying Application](#deploying-application)  
-- [Usage](#usage)  
-- [Screenshot](#screenshot)  
-- [Contributing](#contributing)  
-- [License](#license)
+  
 
 ---
 
