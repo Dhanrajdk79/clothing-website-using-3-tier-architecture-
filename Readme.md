@@ -75,7 +75,7 @@ Other components:
 ### AWS Infrastructure (3-Tier Setup)
 
 ### **Step 1: Create VPC & Subnets**
-
+![3tier-vpc](./Images/vpc struct.png) 
 1. Go to **VPC Console → Create VPC**
 
    * Name: `3tier-vpc`
@@ -97,7 +97,7 @@ Other components:
 ---
 
 ### **Step 2: Launch Public EC2 (Web Server)**
-
+![ec2](./Images/ec2.png)
 1. Go to **EC2 Console → Launch Instance**
 2. AMI: Amazon Linux 2
 3. Instance type: `t2.micro` (free-tier)
@@ -114,7 +114,7 @@ Other components:
 ---
 
 ### **Step 3: Launch Private EC2 (App Server)**
-
+![pvt-ec2](./Images/ec2.png)
 1. Go to **EC2 Console → Launch Instance**
 2. Same AMI (Amazon Linux 2)
 3. Instance type: `t2.micro`
@@ -133,7 +133,7 @@ Other components:
 ---
 
 ### **Step 4: Create Database (RDS)**
-
+![database](./Images/RDS.png)
 1. Go to **RDS Console → Create Database**
 2. Engine: MySQL (or PostgreSQL)
 3. DB instance class: `db.t3.micro`
@@ -146,9 +146,9 @@ Other components:
 8. Create Database
 
 
-* From there, SSH into Private EC2
-* Check DB connection from Private EC2:
+
+#Website view
 
 
-
+![website](./Images/web.png)
 
