@@ -75,7 +75,7 @@ Other components:
 ### AWS Infrastructure (3-Tier Setup)
 
 ### **Step 1: Create VPC & Subnets**
-![3tier-vpc](./Images/vpc struct.png) 
+![3tier-vpc](./Images/vpc.png) 
 1. Go to **VPC Console → Create VPC**
 
    * Name: `3tier-vpc`
@@ -151,4 +151,5 @@ Other components:
 
 
 ![website](./Images/web.png)
+
 
