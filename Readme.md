@@ -23,7 +23,7 @@ A simple clothing store web app where users can browse/search items, view detail
 ## Architecture
 
 Here’s the high-level 3-tier architecture of this project:
-![3-Tier Architecture]( [)](https://github.com/Dhanrajdk79/clothing-website-using-3-tier-architecture-/blob/main/Images/arc.png)
+![3-Tier Architecture](./Images/arc.png)
 - **Presentation Layer**: Public EC2 instance hosting HTML/CSS/Front-end (index.html, shop.php) accessible over the internet.  
 - **Application Layer**: Private EC2 (if used) handling business logic / form handling / processing.  
 - **Database Layer**: RDS MySQL instance in private subnet; only accessible from the App layer.
@@ -148,6 +148,7 @@ Other components:
 
 * From there, SSH into Private EC2
 * Check DB connection from Private EC2:
+
 
 
 
