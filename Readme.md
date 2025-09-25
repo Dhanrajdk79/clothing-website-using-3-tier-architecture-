@@ -10,7 +10,7 @@ A simple clothing store web app where users can browse/search items, view detail
 - [Tech Stack](#tech-stack)  
 - [Folder Structure](#folder-structure)  
 - [Setup Instructions](#setup-instructions)
-- [Website View] (#Website-view)  
+- [Website View](#Website-view)  
   
 
 ---
@@ -146,6 +146,7 @@ Other components:
 
 
 ![website](./Images/web.png)
+
 
 
 
