@@ -142,10 +142,11 @@ Other components:
 
 
 
-# Website view
+## Website view
 
 
 ![website](./Images/web.png)
+
 
 
 
